@@ -240,6 +240,22 @@ section {
     animation: float 3s ease-in-out infinite;
 }
 
+.hero-photo {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px solid rgba(59, 130, 246, 0.3);
+    box-shadow: 0 20px 60px rgba(37, 99, 235, 0.4);
+    transition: all 0.3s ease;
+}
+
+.hero-photo:hover {
+    transform: scale(1.05);
+    border-color: var(--accent-color);
+    box-shadow: 0 25px 80px rgba(37, 99, 235, 0.6);
+}
+
 .hero-image i {
     font-size: 20rem;
     color: rgba(59, 130, 246, 0.2);
@@ -333,6 +349,25 @@ section {
     color: var(--text-light);
     margin: 0;
     font-size: 1rem;
+}
+
+.about-image-wrapper {
+    margin-bottom: 2rem;
+}
+
+.about-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid var(--accent-color);
+    box-shadow: 0 10px 40px rgba(37, 99, 235, 0.3);
+    transition: all 0.3s ease;
+}
+
+.about-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 50px rgba(37, 99, 235, 0.4);
 }
 
 /* ========================================
